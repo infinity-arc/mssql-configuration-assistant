@@ -6,7 +6,7 @@ The idea with this tool is to assist with expedite configuring a project for int
 
 ---
 
-How to use:
+## How to use:
 
 ### 1. Clone this repo.
 
