@@ -6,13 +6,31 @@
   "scripts": {
     "test": "node index.js --action=test-connection",
     "start": "node index",
-    "example":"node ./example/examp le.js"
+    "example": "node ./example/examp le.js"
   },
-  "keywords": ["nodejs","config","mssql","assistant","dx"],
+  "keywords": [
+    "nodejs",
+    "config",
+    "mssql",
+    "assistant",
+    "dx"
+  ],
   "author": "Cliff Crerar -> Cliff@infinityarc.net",
   "license": "MIT",
   "dependencies": {
     "dotenv": "^8.2.0",
     "mssql": "^6.2.0"
-  }
+  },
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infinity-arc/mssql-configuration-assistant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/infinity-arc/mssql-configuration-assistant/issues"
+  },
+  "homepage": "https://github.com/infinity-arc/mssql-configuration-assistant#readme"
 }
