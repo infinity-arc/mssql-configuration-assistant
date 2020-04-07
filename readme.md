@@ -41,7 +41,6 @@ DB=<my-sql-server-db>
 ```
 
 ### 4. Run `npm install`
-
 > **WARNING**: Do not commit the .env file to a public git repo, it contains sensitive config data and must be kept secret.
 
 ### 5. Test the connection.
