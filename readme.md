@@ -10,7 +10,7 @@ How to use:
 
 ### 1. Clone this repo.
 
-....
+`git clone https://github.com/infinity-arc/mssql-configuration-assistant.git`
 
 ### 2. Create the a file in the root of the project and name it `.env`.
 
