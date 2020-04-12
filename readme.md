@@ -22,6 +22,8 @@ The idea with this tool is to assist with expedite configuring a project for int
 
 `CONNECTIONSTRING=mssql://<db-user>:<db-user-password>@<db-server-host>:<db-port>/<datatbase>`
 
+> the node-mssql extension can also take `ADO.NET` and `ODBC` connection strings and if assigned to the environment variable above will achieve the same effect.
+
 > NOTE: the default port is `1433` and the `/<datatbase>` part of the connection string is optional.
 
 ***OPTION B - Server config***

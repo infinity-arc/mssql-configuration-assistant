@@ -22,7 +22,7 @@ function connectionString() {
     if (DB) {
         return `mssql://${SYS}:${PASS}@${HOST}:${PORT}/${DB}`
     } else {
-        return `mssql://${SYS}:${PASS}@${HOST}:${PORT}`
+        return process.env['CONNECTIONSTRING']
     }
 }
 
